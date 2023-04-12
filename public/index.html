@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Jogo da Forca</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <h1>Jogo da Forca</h1>
+
+  <div id="word-display">
+    <!-- A palavra a ser adivinhada será exibida aqui -->
+  </div>
+
+  <div id="guesses-display">
+    <!-- As letras já tentadas serão exibidas aqui -->
+  </div>
+
+  <div id="input-container">
+    <label for="letter-input">Digite uma letra:</label>
+    <input type="text" id="letter-input" maxlength="1">
+    <button id="guess-button">Tentar</button>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="./js/script.js"></script>
+</body>
+</html>
